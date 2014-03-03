@@ -1,6 +1,5 @@
 <?
 require("lib.php");
-session_start();
 
 $username = g('usernameReg');
 $password = g("passReg");
