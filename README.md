@@ -5,7 +5,7 @@ LLOGG was web service I (Salvatore Sanfilippo) and my co-founder Fabio Pitrola r
 
 The site concept was simple but very addictive: LLOOGG displays the accesses on your web site as they happen, in a pretty raw format. It was one of the first services of this type ever when we created it back in 2007. Later we modified it in order to track Adsense clicks (a feature that was later removed and is not available in this source release). Basically it was very instructive to see what users did in your web site, it makes you able to capture patterns that are hard to capture with aggregated data as processed by Google Analytics.
 
-If you want to see the service running, use demo/demo as username and password at http://lloogg.com. The website does not allow users to register, it is just a copy we ran for a few friends.
+If you want to see the service running, use demo/demo as username and password at http://demo.lloogg.com. The website does not allow users to register, it is just a copy we ran for a few friends.
 
 Why we closed
 ---
