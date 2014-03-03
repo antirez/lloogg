@@ -17,11 +17,6 @@ function userName() {
     return $User['username'];
 }
 
-function userPass() {
-    global $User;
-    return $User['password'];
-}
-
 function userEmail() {
     global $User;
     return $User['email'];
@@ -98,18 +93,6 @@ function getIdFromUsername($username) {
     } else {
         return $id;
     }
-}
-
-function handleMissingUser($username){
-    $id=getIdFromUsername($username);
-    if($id==-1){
-        Config("title","Utente sconosciuto");
-        include("header.php");
-        echo '<div style="margin-left:20px;">L\'utente <strong>'.htmlentities($username).'</strong> non esiste nel sistema.';
-        include("footer.php");
-        exit;
-    }
-    return;
 }
 
 function userUpdateExcludeVisitsCookie() {
