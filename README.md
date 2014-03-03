@@ -18,6 +18,13 @@ While LLOOGG is a very lightweight PHP/Redis application, that was able to proce
 
 However there are still users that wanted to use LLOOGG, so even if the **code is completely embarassing** we decided to release it.
 
+But it served as Redis test bed...
+---
+
+Yep, in theory at least. The LLOOGG web site was the only one where I was applying Redis directly to have a considerable traffic (350-400 commands per second when it was shut down), so I was running always Redis unstable releases in LLOOGG in order to catch bugs before to put releases in production for other users.
+
+The reality is that not a single Redis bug was found using LLOOGG, it ran always like oil, not a crash, not a latency issue, nothing, so there was no real benefit about this. At this point the majority of issues in Redis are discovered by users using Redis at a much bigger scale.
+
 Why the code is so bad?
 ---
 
