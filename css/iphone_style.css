@@ -1,0 +1,421 @@
+body {
+    font-family: verdana;
+}
+
+#header {
+    padding-top:5px;
+    border-bottom: 1px #bbbbbb solid;
+}
+
+#main {
+    position:relative;
+    min-height: 400px;
+}
+
+#footer {
+    margin-top:10px;
+    clear:both;
+    border-top: 1px #bbbbbb solid;
+    text-align: center;
+}
+
+#logsdiv {
+    width:100%;
+    float:left;
+}
+
+#statsdiv {
+    position:absolute;
+    width: 30%;
+    border-left: 1px #bbbbbb solid;
+    min-height: 250px;
+    padding-left:3px;
+    top:70px;
+    right:0px;
+    background-color:white;
+    display:none;
+    visibility:hidden;
+}
+
+#statsdiv H5 {
+    margin:0px;
+    padding:0px;
+}
+
+.fineprint {
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: #999999;
+}
+
+.inlinelogo {
+    padding-left: 20px;
+    background: url(/images/lloogg16.gif) 0 0 no-repeat;
+}
+
+#briciola {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#briciola a {
+    color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: #dd2222;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.inputtext {
+    border:1px inset #ddd;
+}
+
+.inputbutton {
+    border:1px solid #aaa;
+}
+
+p {
+    text-align: justify;
+    width: 700px;
+}
+
+#invite {
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    right: 8px;
+}
+
+#invite A {
+    font-size: 12px;
+}
+
+#toplinks {
+    position: absolute;
+    top: 25px;
+    left: 230px;
+}
+
+#toplinks A {
+    font-weight: normal;
+}
+
+#slogan {
+    font-size: 10px;
+    color: #666666;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#uimain {
+    position:relative;
+    padding-top: 15px;
+}
+
+#trendbox {
+    position:absolute;
+    right:0px;
+    top:0px;
+    font-size: 12px;
+    padding-right:10px;
+    background-color:white;
+}
+
+#trendbox H3 {
+    margin:0px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+#trendbox A {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#usernav {
+    background-color: #eeeeee;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+#usernav strong {
+    color: white;
+    background-color: #dd2222;
+}
+
+#usernav strong, #usernav A {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.loginnerdiv {
+    color: #444444;
+    font-size: 14px;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+.ipaddr A {
+    color: #666666;
+}
+.screenres {
+    font-size: 10px;
+    color: #f55000;
+}
+.referer A {
+    color: #5000f5;
+    font-size: 14px;
+    font-weight: normal;
+}
+.useragent {
+    color: #444444;
+    font-size: 14px;
+}
+.ipcolorbox {
+    border: 1px #aaaaaa solid;
+    padding:0px;
+    margin: 0px;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+.date {
+    color: #444444;
+    font-size: 14px;
+}
+.historyinfo {
+    color: #444444;
+    font-size: 14px;
+}
+.country {
+    font-size:14px;
+    font-weight:bold;
+    color:#33aa33;
+}
+.browser {
+    font-weight: bold;
+}
+.os {
+    font-weight: bold;
+}
+.favicon {
+    vertical-align: middle;
+    padding:2px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.statbox {
+    padding: 2px;
+    border: 1px #aaaaaa solid;
+    font-family: monospace;
+    font-size:14px;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+.statbox A {
+    font-weight: normal;
+}
+
+.statbox H5 {
+    margin: 0px;
+    color: white;
+    background-color: #f55000;
+    font-family:verdana;
+    font-size: 14px;
+}
+
+UL.iphistory {
+    margin:0px;
+    padding-left:15px;
+}
+.iphistory LI {
+    font-size: 12px;
+    margin:0px;
+}
+.iphistory A {
+    color: blue;
+    font-weight: normal;
+    text-decoration: none;
+}
+A.ctrlbut {
+    border: 1px #f55000 solid;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left:6px;
+    font-size:12px;
+}
+#trendmain {
+    padding-top: 20px;
+}
+.graph {
+    position: relative;
+    border-bottom: 1px dotted #dddddd;
+    padding:0px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+.graphtitle {
+    position: absolute;
+    left:5px;
+    top:0px;
+    padding:2px;
+    color:#666666;
+    font-family: "Trebuchet MS",Verdana;
+    font-size:16px;
+    font-weight:bold;
+    color:999999;
+}
+.bar {
+    position: absolute;
+    border: 1px white solid;
+    border-bottom: none;
+    font-size:10px;
+    text-align:center;
+    color:white;
+    cursor:pointer;
+    z-index:1;
+}
+.stdbar {
+    background-color: #9ad281;
+    border-top: 1px #bfd7b4 solid;
+    border-left: 1px #bfd7b4 solid;
+    border-right: 1px #83d55e solid;
+}
+.webar {
+    background-color: #8ac271;
+    border-top: 1px #60a741 solid;
+    border-left: 1px #60a741 solid;
+    border-right: 1px #60a741 solid;
+}
+.lastbar {
+    background-color: #60a741;
+    border-top: 1px #bfd7b4 solid;
+    border-left: 1px #bfd7b4 solid;
+    border-right: 1px #83d55e solid;
+}
+.barmax {
+    text-align: right;
+    position: absolute;
+    border-bottom: 1px #dddddd dotted;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    color: #666666;
+    margin:1px;
+}
+.baravg {
+    text-align: right;
+    position: absolute;
+    border-bottom: 1px #ddddff dotted;
+    width: 100%;
+    height: 15px;
+    font-size: 10px;
+    color: #666666;
+    margin:0px;
+}
+.clicktip {
+    background-color: white;
+    border: 1px black solid;
+    font-family: verdana;
+    font-size: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    max-width: 300px;
+    z-index:2;
+}
+#trendsctrl {
+    font-size:12px;
+    padding: 0px;
+    padding-bottom:5px;
+    margin-top:10px;
+    border: 2px #9ad281 solid;
+    position: absolute;
+    left:650px;
+    top:0px;
+}
+#trendsctrl SELECT {
+    border: 1px #aaaaaa solid;
+    margin:5px;
+}
+#trendsctrl A {
+    font-weight: normal;
+    padding:5px;
+}
+#trendsctrl H2 {
+    margin:0px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #60a741;
+}
+#screencast {
+    border: 1px #aaaaaa dotted;
+    width: 740px;
+}
+#changelog {
+    position: absolute;
+    right:5px;
+    top:0px;
+    padding:1px;
+    color:red;
+    font-weight:bold;
+    font-size:10px;
+}
+#changelog A {
+    color:blue;
+}
+#adclick {
+    font-size:14px;
+    font-weight:bold;
+    padding:5px;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+#featuresdisclaimer {
+    width:500px;
+    padding:10px;
+    border: 1px red dotted;
+    font-size:10px;
+}
+.progressbar {
+    padding:3px;
+    background-color:red;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 100;
+}
+#filters {
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:5px;
+    border: 1px #909090 solid;
+    background-color: #ffffc0;
+    width:700px;
+    font-size:12px;
+    font-weight:bold;
+}
+.notabene {
+    font-size:12px;
+    font-weight:normal;
+    border: 1px solid #f0f0f0;
+    background-color: #ffffee;
+    padding:3px;
+    margin:2px;
+    padding-left:18px;
+    background:#ffffee url(/images/lbulb.gif) 0px 3px no-repeat;
+}

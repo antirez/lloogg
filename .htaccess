@@ -1,0 +1,22 @@
+AddHandler application/x-httpd-php .php .html.php
+DirectoryIndex index.html.php index.php
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(admin)$ admin.html.php [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(feedbacks)$ feedbacks.html.php [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(sendfeedback)$ sendfeedback.html.php [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(settings)$ usercode.php [QSA,L]
+
+php_flag magic_quotes_gpc off
+php_flag register_globals off

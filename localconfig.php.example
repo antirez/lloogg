@@ -1,0 +1,11 @@
+<?
+# Local settings, server specific stuff, loaded from config.php.
+# This file is splitted from the rest because it's the only file
+# you should not take in sync between the development and the production
+# system. it makes simpler to update the entire system.
+
+Config("redishost","127.0.0.1");
+Config("redisport",6379);
+Config("domain","lloogg.com");
+Config("urldomain","http://".Config("domain"));
+?>
